@@ -1,63 +1,62 @@
+<!doctype html>
 <html>
   <head>
-    <tittle>first exercise</tittle>
+	<meta charset="utf-8">
+  	<title>first exercise</title>
     <style type="text/css">
-    	body { background-color: 255255255;
+    	p { background-color: #AABBCC;
+    		color:maroon;
     		margin-left: 20%;
-    		margin-right: 10%;
-    		border: 1px line;
+    		margin-right: 20%;
+    		border: 10px solid white;
     		padding:20px 20px 20px 20px;
     		font-family: sans-serif;
-
+    		text-align: center;
+    	}
+    	ul {
+    		background-color: white;
+    	}
+    	ol {
+    		background-color: gray;
+    		text-align: right;
     	}
     </style>
   </head>
-  <body>
-    <h1>excise 1,this is heading 1</h1>
+  <body bgcolor="yellow" text="tan">
+    <h1 align="center">excise 1,this is heading 1</h1>
+    <hr>
     <p>no image here, just to use the img tag.</p>
-    <img src=".jpg" width="50" height="50">
+    <img src=".jpg" width="100" height="50" alt="no image">
     <h2>total 6 headings,include h1 to h6. This is heading 2</h2>
     <p> comments should be placed between < ! --
     	and -- > , <em>without the white space.</em>
     </p>
     <p>
-    	<ul>
-    		<li>each HTML elment = Opening tag + Content + Closing tag (sometimes opentional)</li>
-        	<li>each Closing tag have an extra / inside <>.</li>
-        	<li>tags will be nested (inside) in other tage.</li>
-        	<li>CSS: Cascading Style Sheets</li>
-        	<li>the stytle tag should be nested in head tags</li>
-        	<li> "a" tag is for hyper link, with the text and an arrtributes value, href="desdination", web sites / files, such as other html files are valid values </li>
-        	<li><a href="https://xiaohupei.github.io" target="blank">My github blog</a></li>
+    	first p element
+    	<ul align="center">
+        	<li><a href="https://xiaohupei.github.io"  title="github blog" target="blank">xiaohupei.github.io</a></li>
         	<li>put an "img" tag inside an "a" tag will the image clickable just like a text link,fun and useful </li>
-			<li>organization is very important both for the HTML code structure and the web resources. Normally the structure is just like a upside down tree </li>
+			<li>organization is very important both for the HTML code structure and the web resources. <br>Normally the structure is just like a upside down tree </li>
         	<li> ../  in a link means going up folder</li>
-        	<li>Don’t use spaces in the names you choose for files and folders for your website.</li>	
+        	<li>Don’t use spaces in the names you choose for files and folders for your website.</li>
     	</ul>
-    	
     </p>
     <p>Web page construction
     	<ol>
     		<li>Layout design</li>
     		<li>Maybe some draft design sketch is needed</li>
     		<li>from sketch to outline to web page</li>
-    		<li>it's better to use markdown to record all the tags I learned</li>	
+    		<li>it's better to use markdown to record all the tags I learned</li>
     	</ol>
-    	
     </p>
     <p>
-    	<q>this is a quote tag</q>
-    	<blockquote> this is a blockquote tag for longer quotes, creates a separate & indented block</blockquote>
-    	<li>start with the bigger chunks (the block elements) and then add in the inline elements<br> as you refine the page.</li>
+    	some tips
+    	<ul>
+    		<li>always use the element most closely matches the meaning of your content</li>
+    		<li>block elements are displayed with a linebreak above and blow the content within them</li>
+    		<li>inline elements flow in line with other content in the containing element (block element)</li>
+    		<li><a href="#top"> href="#top",link to top</a></li>
+    	</ul>
     </p>
-    <p>
-    	dl tag is for definition list, has dt (list item) & dd (list description)
-    	<dl>
- 			<dt>list item 1</dt>
- 			<dd>list description</dd>
- 			<dt>list item 2</dt>
- 			<dd>list description</dd>
- 		</dl>
-    </p>
-  </body>
+   </body>
 </html>
